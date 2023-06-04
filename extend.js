@@ -1,0 +1,1 @@
+document.querySelector("body").style.backgroundImage=`url(https://cdn.jsdelivr.net/gh/0xarch/tsryhl/bg${Math.round(Math.random())+1}.jpg)`;for(let item of document.querySelectorAll(".card.card-primary.card-outline"))if(item.textContent.includes("公告"))item.style.display="none";document.getElementById("fixed-bg").remove();
